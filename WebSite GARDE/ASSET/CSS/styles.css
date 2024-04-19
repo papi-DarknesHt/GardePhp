@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main_error {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff3cd;
+}
+
+.box-apropo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+.box-apropo>h2,
+button {
+    align-self: flex-start;
+}
+
+header {
+    z-index: 1;
+}
+
+.header-class>.navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+.header-class {
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+.container-main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../IMAGES/istockphoto-1488294044-1024x1024SVG.svg");
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    position: relative;
+    animation: slide 8s alternate infinite;
+    transition: background-position 2s ease;
+}
+
+@keyframes slide {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: 100% 0;
+        /* Déplacement pour créer une boucle */
+
+    }
+}
+
+.text {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}
+
+.container-about {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left,
+.about-right {
+    width: 50%;
+}
+
+.bg-image {
+    /* background-image: url("../IMAGES/close-up-pen-market-research.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.icon {
+    filter: invert(100%);
+}
+
+.icon:hover {
+    filter: invert(0%);
+}
+
+footer {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    background-color: #bdbdbd;
+}
+
+.left,
+.right {
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right>ul,
+.left>ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.right>ul>li,
+.left>ul>li {
+    list-style-type: none;
+    margin: 2px;
+}
+
+.left>ul>li>a {
+    text-decoration: none;
+}
+
+.size-icon {
+    width: 25px;
+}
+
+.box-service{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-img{
+    position: absolute; 
+    color: white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Styles à appliquer pour les petits et moyens écrans */
+    .menu {
+        background-color: white;
+        position: absolute;
+        z-index: 1;
+        border-radius: 15px;
+        padding: 10px;
+        top: 100%;
+        width: 100%;
+    }
+    .container-about{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        
+    }
+    .about-left,
+    .about-right {
+        width: 100%;
+    }
+    .left,
+.right {
+    width: 100%;
+    height: 50%;
+}
+    .about-right{
+        width: 100%;
+        height: 40vh;
+        background-color: white;
+    }
+    .box-apropo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: justify;
+        padding: 15px;
+        overflow-y: auto;
+    }
+    .box-img{
+        height: 100vh;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "Acceuil": {
+    "fr": "Acceuil",
+    "en": "Home",
+    "cr": "Akey"
+  },
+  "APropos": {
+    "fr": "A propos",
+    "en": "About",
+    "cr": "a pwopo"
+  },
+  "projet": {
+    "fr": "Projet",
+    "en": "Project",
+    "cr": "Pwoje"
+  },
+  "service": {
+    "fr": "Services Offert",
+    "en": "Services Offered",
+    "cr": "sevis nou bay"
+  },
+  "lireplus":{
+    "fr": "Lire Plus...",
+    "en": "Read More...",
+    "cr": "Li plis..."
+  },
+  "garde_presentation":{
+    "fr": "<strong>GARDE (Groupe d’Appui à la Recherche et au Développement d’Entreprises)</strong> est une société en nom collectif créée par des professionnels chevronnés venus d’horizon divers et engagés depuis plus d’une vingtaine d’années dans la prestation de services professionnels en Haïti. Les propriétaires de cette société détiennent chacun, tout au moins, un diplôme de « Master 2 » dans une discipline universitaire du champ de compétence du GARDE. Et, les principaux services offerts par la société GARDE trouvent leurs sources, des savoirs et savoir-faire accumulés par ses propriétaires eux-mêmes dans différents domaines d’expertises....",
+    "en": "<strong>GARDE (Groupe d’Appui à la Recherche et au Développement d’Entreprises)</strong> is a general partnership created by experienced professionals from diverse backgrounds and engaged for more than twenty years in the provision of professional services in Haiti. The owners of this company each hold, at least, a “Master 2” diploma in a university discipline within the GARDE’s field of competence. And, the main services offered by the GARDE company find their sources, knowledge and know-how accumulated by its owners themselves in different areas of expertise....",
+    "cr": ""
+  },
+  "slogan":{
+    "fr": "\"Votre partenaire stratégique pour le décollage, la croissance et la pérennité de votre institution\"",
+    "en": "\"Your strategic partner for the take-off, growth and sustainability of your institution\"",
+    "cr": "Li plis..."
+  }
+}
